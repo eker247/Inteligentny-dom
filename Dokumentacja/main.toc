@@ -1,0 +1,85 @@
+\contentsline {section}{\numberline {1}Opis projektu}{2}
+\contentsline {subsection}{\numberline {1.1}Cz\IeC {\l }onkowie zespo\IeC {\l }u}{2}
+\contentsline {subsection}{\numberline {1.2}Cel projektu (produkt)}{2}
+\contentsline {subsection}{\numberline {1.3}Potencjalny odbiorca produktu (klient)}{2}
+\contentsline {subsection}{\numberline {1.4}Metodyka}{2}
+\contentsline {section}{\numberline {2}Wymagania u\IeC {\.z}ytkownika}{2}
+\contentsline {subsection}{\numberline {2.1}Zimno a Gra\IeC {\.z}yna w \IeC {\l }\IeC {\'o}\IeC {\.z}ku}{2}
+\contentsline {subsection}{\numberline {2.2}Gra\IeC {\.z}yna boi si\IeC {\k e} powrotu do zimnego domu}{2}
+\contentsline {section}{\numberline {3}Harmonogram}{2}
+\contentsline {subsection}{\numberline {3.1}Rejestr zada\IeC {\'n} (Product Backlog)}{2}
+\contentsline {subsection}{\numberline {3.2}Sprint 1}{3}
+\contentsline {section}{\numberline {4}Sprint 1}{3}
+\contentsline {subsection}{\numberline {4.1}Cel}{3}
+\contentsline {subsection}{\numberline {4.2}Sprint Planning/Backlog}{3}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{3}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{3}
+\contentsline {paragraph}{<<Tutaj dodawa\IeC {\'c} kolejne zadania>>}{3}
+\contentsline {subsection}{\numberline {4.3}Realizacja}{3}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{3}
+\contentsline {subparagraph}{Wykonawca.}{3}
+\contentsline {subparagraph}{Realizacja.}{3}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{3}
+\contentsline {subparagraph}{Wykonawca.}{3}
+\contentsline {subparagraph}{Realizacja.}{3}
+\contentsline {paragraph}{<<Tutaj dodawa\IeC {\'c} kolejne zadania>>}{4}
+\contentsline {subsection}{\numberline {4.4}Sprint Review/Demo}{4}
+\contentsline {subsection}{\numberline {4.5}Sprint 1}{4}
+\contentsline {section}{\numberline {5}Sprint 1}{4}
+\contentsline {subsection}{\numberline {5.1}Cel}{4}
+\contentsline {subsection}{\numberline {5.2}Sprint Planning/Backlog}{4}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{4}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{4}
+\contentsline {paragraph}{<<Tutaj dodawa\IeC {\'c} kolejne zadania>>}{4}
+\contentsline {subsection}{\numberline {5.3}Realizacja}{4}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{4}
+\contentsline {subparagraph}{Wykonawca.}{4}
+\contentsline {subparagraph}{Realizacja.}{4}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{4}
+\contentsline {subparagraph}{Wykonawca.}{5}
+\contentsline {subparagraph}{Realizacja.}{5}
+\contentsline {paragraph}{<<Tutaj dodawa\IeC {\'c} kolejne zadania>>}{5}
+\contentsline {subsection}{\numberline {5.4}Sprint Review/Demo}{5}
+\contentsline {section}{\numberline {6}Product Backlog}{5}
+\contentsline {subsection}{\numberline {6.1}Backlog Item 1}{5}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{5}
+\contentsline {paragraph}{Opis zadania.}{5}
+\contentsline {paragraph}{Priorytet.}{5}
+\contentsline {paragraph}{Definition of Done.}{5}
+\contentsline {subsection}{\numberline {6.2}Backlog Item 2}{5}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{5}
+\contentsline {paragraph}{Opis zadania.}{5}
+\contentsline {paragraph}{Priorytet.}{5}
+\contentsline {paragraph}{Definition of Done.}{5}
+\contentsline {subsection}{\numberline {6.3}Sprint 1}{5}
+\contentsline {section}{\numberline {7}Sprint 1}{6}
+\contentsline {subsection}{\numberline {7.1}Cel}{6}
+\contentsline {subsection}{\numberline {7.2}Sprint Planning/Backlog}{6}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{6}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{6}
+\contentsline {paragraph}{<<Tutaj dodawa\IeC {\'c} kolejne zadania>>}{6}
+\contentsline {subsection}{\numberline {7.3}Realizacja}{6}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{6}
+\contentsline {subparagraph}{Wykonawca.}{6}
+\contentsline {subparagraph}{Realizacja.}{6}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{6}
+\contentsline {subparagraph}{Wykonawca.}{6}
+\contentsline {subparagraph}{Realizacja.}{6}
+\contentsline {paragraph}{<<Tutaj dodawa\IeC {\'c} kolejne zadania>>}{6}
+\contentsline {subsection}{\numberline {7.4}Sprint Review/Demo}{6}
+\contentsline {subsection}{\numberline {7.5}Sprint 1}{7}
+\contentsline {section}{\numberline {8}Sprint 1}{7}
+\contentsline {subsection}{\numberline {8.1}Cel}{7}
+\contentsline {subsection}{\numberline {8.2}Sprint Planning/Backlog}{7}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{7}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{7}
+\contentsline {paragraph}{<<Tutaj dodawa\IeC {\'c} kolejne zadania>>}{7}
+\contentsline {subsection}{\numberline {8.3}Realizacja}{7}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{7}
+\contentsline {subparagraph}{Wykonawca.}{7}
+\contentsline {subparagraph}{Realizacja.}{7}
+\contentsline {paragraph}{Tytu\IeC {\l } zadania.}{7}
+\contentsline {subparagraph}{Wykonawca.}{7}
+\contentsline {subparagraph}{Realizacja.}{7}
+\contentsline {paragraph}{<<Tutaj dodawa\IeC {\'c} kolejne zadania>>}{8}
+\contentsline {subsection}{\numberline {8.4}Sprint Review/Demo}{8}
