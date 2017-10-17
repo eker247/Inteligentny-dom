@@ -1,0 +1,72 @@
+czujnik temperatury 
+sterowanie temperatur¹ (serwomechanizm)
+sterowanie roletami
+sterowanie oswietleniem (sterowanie zmierzchowe, sterowanie ruchu)
+sterowanie gniazdkami (pr¹dem)
+modu³y alarmowe (?laser?, zabezpieczenie okien/drzwi, wykrywanie ruchu, sygnalizator alarmowy)
+wykrywanie p³omienia (?dymu?)
+sprawdzanie wilgotnoœci powietrza
+sterowanie LED RGB 
+?czujnik zalania?
+
+1. Jako u¿ytkownik inteligentnego domu chcê mieæ mo¿liwoœæ w ka¿dym 
+momencie zorientowania siê jaka jest aktualna temperatura w pokoju w
+ którym siê znajduje.
+
+2. Jako u¿ytkownik inteligentnego domu chcê móc zamykaæ i otwieraæ 
+rolety w ka¿dej chwili, ¿eby s¹siedzi nie widzieli co robiê w wolnym czasie.
+
+3. Jako u¿ytkownik inteligentnego domu chcê aby oœwietlenie wokó³ posesji,
+  automatycznie siê w³¹cza³o gdy czujnik wykryje ruch oraz po zmroku.
+
+4. Jako u¿ytkownik inteligentnego domu chcê mieæ mo¿liwoœæ wy³¹czenia/w³¹czenia
+ poszczególnych gniazdek w instalacji domowej, ¿eby p³aciæ mniejsze rachunki 
+za pr¹d.
+
+5. Jako u¿ytkownik inteligentnego domu chcê czuæ siê bezpiecznie poprzez 
+mo¿liwoœæ automatycznego blokowania okien, drzwi.//////
+
+6. Jako u¿ytkownik inteligentnego domu chcê us³yszeæ alarm gdy ktoœ bêdzie chodzi³ po moim domu podczas za³¹czonego alarmu.//
+
+7. Jako u¿ytkownik inteligentnego domu chcê byæ zabezpieczony przed po¿arem poprzez mo¿liwoœæ wykrywania p³omienia oraz dymu.
+
+8. Jako u¿ytkownik inteligentnego domu chcê siê czuæ komfortowo poprzez informacjê o wilgotnoœci powietrza.
+
+9. Jako u¿ytkownik inteligentnego domu chcê wiedzieæ czy w ³azience nie przelewa siê woda z wanny/pralki.
+
+
+10.Jako u¿ytkownik inteligentnego domu chcê mieæ mo¿liwoœæ sterowania ledami RGB   
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{User story 1}
+	 Zimna noc. Gra¿yna budzi siê chc¹c podkrêciæ ogrzewanie. Niestety, aby to uczyniæ musi wstaæ i podejœæ do grzejnika. Gra¿yna marzy o tym ¿eby zrobiæ to zdalnie przez jej telefon.
+	
+	\subsection{User story 2}
+	Gra¿yna jest w pracy do póŸnych godzin wieczornych, myœli o tym, ¿e za nied³ugo wróci do zimnego domu jednak przypomina sobie, ¿e mo¿e podkrêciæ ogrzewanie korzystaj¹c ze swojego laptopa.
+	
+	\subsection{User story 3}
+	Jako u¿ytkownik inteligentnego domu chcê mieæ mo¿liwoœæ w ka¿dym momencie zorientowania siê jaka jest aktualna temperatura w pokoju w którym siê znajdujê.
+	
+	\subsection{User story 4}
+	Jako u¿ytkownik inteligentnego domu chcê móc zamykaæ i otwieraæ rolety w ka¿dej chwili, ¿eby s¹siedzi nie widzieli co robiê w wolnym czasie.
+	
+	\subsection{User story 5}
+	Jako u¿ytkownik inteligentnego domu chcê posiadaæ oœwietlenie wokó³ posesji, które automatycznie bêdzie siê w³¹cza³o gdy czujnik wykryje ruch, lub po zmroku.
+	
+	\subsection{User story 6}
+	Jako u¿ytkownik inteligentnego domu chcê mieæ mo¿liwoœæ wy³¹czenia/w³¹czenia poszczególnych gniazdek w instalacji domowej, ¿eby p³aciæ mniejsze rachunki za pr¹d.
+	
+	\subsection{User story 7}
+	Jako u¿ytkownik inteligentnego domu chcê czuæ siê bezpiecznie poprzez mo¿liwoœæ automatycznego blokowania okien, drzwi.
+	
