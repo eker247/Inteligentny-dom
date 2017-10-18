@@ -1,2 +1,2 @@
-4# (5v) KY-015 czujnik wilgotnoœci + temperatury
-18# serwomechanizm
+4# (5v) KY-015 czujnik wilgotnoœci + temperatury (zgon :D zamiana na na inny)
+18# serwomechanizm 
