@@ -3,8 +3,8 @@ sterowanie temperatur¹ (serwomechanizm)
 sterowanie roletami
 sterowanie oswietleniem (sterowanie zmierzchowe, sterowanie ruchu)
 sterowanie gniazdkami (pr¹dem)
-modu³y alarmowe (?laser?, zabezpieczenie okien/drzwi, wykrywanie ruchu, sygnalizator alarmowy)
-wykrywanie p³omienia (?dymu?)
+niewykonalne na naszych modu³ach,brak wyjœæ analogowych-modu³y alarmowe (?laser?, zabezpieczenie okien/drzwi, wykrywanie ruchu, sygnalizator alarmowy)
+niewykonalne na naszych modu³ach,brak wyjœæ analogowych-wykrywanie p³omienia (?dymu?)
 sprawdzanie wilgotnoœci powietrza
 sterowanie LED RGB 
 ?czujnik zalania?
@@ -23,16 +23,16 @@ rolety w ka¿dej chwili, ¿eby s¹siedzi nie widzieli co robiê w wolnym czasie.
  poszczególnych gniazdek w instalacji domowej, ¿eby p³aciæ mniejsze rachunki 
 za pr¹d.
 
-5. Jako u¿ytkownik inteligentnego domu chcê czuæ siê bezpiecznie poprzez 
+(za pomoc¹ serwa)5. Jako u¿ytkownik inteligentnego domu chcê czuæ siê bezpiecznie poprzez 
 mo¿liwoœæ automatycznego blokowania okien, drzwi.//////
 
-6. Jako u¿ytkownik inteligentnego domu chcê us³yszeæ alarm gdy ktoœ bêdzie chodzi³ po moim domu podczas za³¹czonego alarmu.//
+(Do wywalenia)6. Jako u¿ytkownik inteligentnego domu chcê us³yszeæ alarm gdy ktoœ bêdzie chodzi³ po moim domu podczas za³¹czonego alarmu.//
 
-7. Jako u¿ytkownik inteligentnego domu chcê byæ zabezpieczony przed po¿arem poprzez mo¿liwoœæ wykrywania p³omienia oraz dymu.
+(Do wywalenia)7. Jako u¿ytkownik inteligentnego domu chcê byæ zabezpieczony przed po¿arem poprzez mo¿liwoœæ wykrywania p³omienia oraz dymu.
 
 8. Jako u¿ytkownik inteligentnego domu chcê siê czuæ komfortowo poprzez informacjê o wilgotnoœci powietrza.
 
-9. Jako u¿ytkownik inteligentnego domu chcê wiedzieæ czy w ³azience nie przelewa siê woda z wanny/pralki.
+??9. Jako u¿ytkownik inteligentnego domu chcê wiedzieæ czy w ³azience nie przelewa siê woda z wanny/pralki.
 
 
 10.Jako u¿ytkownik inteligentnego domu chcê mieæ mo¿liwoœæ sterowania ledami RGB   
