@@ -3,20 +3,20 @@ Dokumentacja/main.log
 Dokumentacja/main.synctex.gz
 Dokumentacja/main.toc
 
-PHP/app/config/*
-PHP/app/config/AppCache.php
-PHP/app/config/AppKernel.php
-PHP/app/config/.htaccess
+PHP/app/config
+PHP/app/AppCache.php
+PHP/app/AppKernel.php
+PHP/app/.htaccess
 PHP/composer.json  
 PHP/.gitignore        
 PHP/README.md
-PHP/tests/*
-PHP/vendor/*
-PHP/bin/*
+PHP/tests
+PHP/vendor
+PHP/bin
 PHP/composer.lock
 PHP/phpunit.xml.dist
-PHP/var/*
-PHP/web/*
+PHP/var
+PHP/web
 PHP/src/.htaccess
 PHP/src/AppBundle/AppBundle.php
 
