@@ -1,0 +1,2 @@
+poprawa backloga (data dzisiaj, wiêcej szczegó³ów, lepsze opisy)
+harmonogram spirtów (brakuje nawi¹zania do historyjek, za³o¿enie serwera i zrobienie strony rozbiæ, dko³adniejszy opis, szczegó³y zakoñczenia - definition of done, zadania opcjonalne - zalanie najni¿szy prorio\ytet i zaznaczyæ ¿e opcja), dokumentacja poszczególnych etapów pisania aplikacji, programów i www
