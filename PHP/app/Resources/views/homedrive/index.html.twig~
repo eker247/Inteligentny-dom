@@ -3,7 +3,7 @@
 {% block title %}Home Drive{% endblock %}
 {% block body %}
 <div class="container">
-  <div class="jumbotron" id="adin">
+  <div class="jumbotron">
     <h1>Home Drive</h1>
     <p>Wygodny system zarządzania domowymi urządzeniami w jednym miejscu.</p>
   </div>

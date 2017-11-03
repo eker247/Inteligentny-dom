@@ -1,118 +1,281 @@
+%	\section{Harmonogram}
+%	\subsection{Rejestr zadań (Product Backlog)}
+	
+
+
 \section{Product Backlog}
+	\begin{itemize}
+		\item Data rozpoczęcia: 24.10.2017.
+		\item  Data zakończenia: 31.10.2017.
+	\end{itemize}
 
 	\subsection{Backlog Item 1}
 	\paragraph{Tytuł zadania:}
-	Stworzenie interfejsu.
+	Konfiguracja infrastruktury sieciowej
 	
 	\paragraph{Opis zadania:}
-	Napisanie strony internetowej w php z podstawową funkcjonalnością, instalacja i konfiguracja VPN, konfiguracja infrastruktury sieciowej.
+	W miejscu podłączenia mikrokomputera do sieci Internet należy skonfigurować router tak, aby kierował ruch sieciowy na urządzenie i aby po wpisaniu do przeglądarki adresu pojawiała się strona naszego projektu. Na mikrokomputerze należy zainstalować aplikację ddns oraz zarejestrować wybrany adres.
 	
 	\paragraph{Priorytet:}
 	5
 	
 	\paragraph{Definition of Done:}
-	Gotowa strona internetowa z możliwością zdalnego sterowania przez użytkownika.
+	Po wpisaniu w dowolnej przeglądarce na dowolnym urządzeniu adresu strony www pokaże się panel sterowania urządzeniami w inteligentnym domu.
 	
 % =============================================================	
+
+\subsection{Backlog Item 2}
+\paragraph{Tytuł zadania:}
+Zabezpieczenie przed niepożądanym ruchem z sieci.
+
+\paragraph{Opis zadania:}
+Instalacja i konfiguracja firewalla. Należy zablokować porty niewykorzystywane do tworzenia, uaktualniania i testowania systemu.
+
+\paragraph{Priorytet:}
+5
+
+\paragraph{Definition of Done:}
+Z poziomu wiersza poleceń można sprawdzić stan blokowanych portów przez firewall.
+
+% =============================================================	
+
+\subsection{Backlog Item 3}
+\paragraph{Tytuł zadania:}
+Przygotowanie serwera www.
+
+\paragraph{Opis zadania:}
+Instalacja serwera apache, języka php i bazy danych.
+
+\paragraph{Priorytet:}
+5
+
+\paragraph{Definition of Done:}
+Prawidłowo skonfigurowany serwer interpretuje skrypty php. Nie wysyła poleceń php na przeglądarkę klienta. Jest w stanie prawidłowo wyświetlać stronę.
+
+% =============================================================	
+
+	\subsection{Backlog Item 4}
+	\paragraph{Tytuł zadania:}
+	Stworzenie interfejsu.
 	
-	\subsection{Backlog Item 2}
+	\paragraph{Opis zadania:}
+	Napisanie strony internetowej w php, umożliwiającej sterowanie wszystkimi zainstalowanymi w danej chwili urządzeniami. Strona powinna być uaktualniana w trakcie dołączania kolejnych czujników i urządzeń.
+	
+	\paragraph{Priorytet:}
+	5
+	
+	\paragraph{Definition of Done:}
+	Dzięki stronie www użytkownik może sterować inteligentnym domem. Na stronie znajdują się przyciski włączające i wyłączające światło i przekaźniki.
+
+% =============================================================	
+
+\subsection{Backlog Item 5}
+\paragraph{Tytuł zadania:}
+Zabezpieczenie strony www.
+
+\paragraph{Opis zadania:}
+Na stronie należy wykonać możliwość logowania aby osoby nieuprawnione nie miały możliwości sterowania naszym systemem.
+
+\paragraph{Priorytet:}
+5
+
+\paragraph{Definition of Done:}
+Bez zalogowania na stronie nie będzie możliwości wysłania żadnych poleceń do serwera.
+
+% =============================================================	
+	
+	\subsection{Backlog Item 6}
 	\paragraph{Tytuł zadania:} 
-	Montaż przekaźnika.
+	Sterowanie światłem i gniazdami.
 	
 	\paragraph{Opis zadania:} 
-	Wykonanie instalacji przekaźnika sterującego światłem i gniazdami. Wykonanie programów.
+	Montaż przekaźników do gniazd i lamp. Poprowadzenie przewodu sterującego i podpięcie do mikrokontrolera.
 	
 	\paragraph{Priorytet:}
 	4
 	
 	\paragraph{Definition of Done:}
-	Gotowa instalacja
+	Z poziomu wiersza poleceń możliwe jest uaktywnienie lub deaktywacja przekaźnika (łączenie obwodu elektrycznego w lampach lub gniazdach).
 
 % =============================================================
 
-	\subsection{Backlog Item 3}
+\subsection{Backlog Item 7}
+\paragraph{Tytuł zadania:} 
+Program sterujący światłem i gniazdami.
+
+\paragraph{Opis zadania:} 
+Napisanie programu odpowiedzialnego za sterowanie przekaźnikami.
+
+\paragraph{Priorytet:}
+4
+
+\paragraph{Definition of Done:}
+Możliwe stanie się włączanie i gaszenie światła w ustalonych godzinach lub w danym momencie przez stronę internetową.
+
+% =============================================================
+
+	\subsection{Backlog Item 8}
 	\paragraph{Tytuł zadania:}
-	Pir + fotorezystor.
+	Czujnik światła i ruchu.
 	
 	\paragraph{Opis zadania:} 
-	Wykonanie instalacji sterującej zapalaniem światła w chwili wykrycia ruchu przez czujnik. 
+	Rozmieszczenie czujników, doprowadzenie przewodów. 
 	
 	\paragraph{Priorytet:}
 	3
 	
 	\paragraph{Definition of Done:}
-	Światła w okół domu zapalają się po zmroku w chwili wykrycia ruchu.
+	Z poziomu wiersza poleceń można sprawdzić stan czujników.
 	
 
 % =============================================================
 
-	\subsection{Backlog Item 4}
+	\subsection{Backlog Item 9}
 	\paragraph{Tytuł zadania:}
-	Temperatura + servo.
+	Sterowanie światłem zewnętrznym.
 	
 	\paragraph{Opis zadania:} 
-	Sterowanie temperaturą w pomieszczeniu przez stronę internetową. Wykonanie odpowiedniej instalacji, przygotowanie programów.
+	Napisanie programu zapalającego zewnętrzne lampy po zmroku w chwili wykrycia ruchu. 
+	
+	\paragraph{Priorytet:}
+	3
+	
+	\paragraph{Definition of Done:}
+	Światła w okół domu zapalają się po zmroku w chwili pojawienia się ruchu na posesji.
+
+
+% =============================================================
+
+	\subsection{Backlog Item 10}
+	\paragraph{Tytuł zadania:}
+	Czujnik temperatury i serwo mechanizm.
+	
+	\paragraph{Opis zadania:} 
+	Instalacja czujników temperatury w pomieszczeniach oraz montaż mechanizmów regulujących przepływ ciepłej wody przez kaloryfery.
 	
 	\paragraph{Priorytet:}
 	3
 	
 	\paragraph{Definition of Done:} 
-	Po ustawieniu wymaganej temperatury, serwo powinno sterować termostatem tak aby uzyskać wymaganą temperaturę w pomieszczeniu.
+	Z poziomu wiersza poleceń możliwe jest odczytanie temperatury z czujników oraz sterowanie mechanizmem regulującym.
 	
 
 % =============================================================	
+
+\subsection{Backlog Item 11}
+\paragraph{Tytuł zadania:}
+Program sterujący ogrzewaniem.
+
+\paragraph{Opis zadania:} 
+Napisanie programu odczytującego obecną temperaturę w pomieszczeniu, oczekiwaną temperaturę przez użytkownika oraz odpowiednio regulujący kaloryfery.
+
+\paragraph{Priorytet:}
+3
+
+\paragraph{Definition of Done:} 
+Użytkownik może wprowadzić żądaną temperaturę w pomieszczeniu na stronie internetowej. Program w przypadku odczytania z czujnika zbyt niskiej temperatury wyśle do serwo sygnał, aby ten umożliwił szybszy przepływ wody. W przypadku osiągnięcia zbyt wysokiej temperatury w pomieszczeniu, kaloryfer powinien zostać zakręcony. 
+
+
+% =============================================================	
 	
-	\subsection{Backlog Item 5}
+	\subsection{Backlog Item 12}
 	\paragraph{Tytuł zadania:}
-	Servo rolety.
+	Sterowanie roletami.
 	
 	\paragraph{Opis zadania:} 
-	Montaż i konfiguracja serwo mechanizmów na roletach w pomieszczeniach oraz czujnika zmierzchu.	Przygotowanie programów.
+	Montaż serwo mechanizmów na roletach w pomieszczeniach oraz czujnika zmierzchu.
 	
 	\paragraph{Priorytet:}
 	3
 	
 	\paragraph{Definition of Done:}
-	Możliwość sterowania roletami z poziomu przeglądarki internetowej.
+	Możliwość sterowania roletami z poziomu wiersza poleceń.
+
+
+% =============================================================	
+
+	\subsection{Backlog Item 13}
+	\paragraph{Tytuł zadania:}
+	Sterowanie roletami ze strony www.
+	
+	\paragraph{Opis zadania:} 
+	Stworzenie programu umożliwiającego zasłanianie i odsłanianie okien.
+	
+	\paragraph{Priorytet:}
+	3
+	
+	\paragraph{Definition of Done:}
+	Z poziomu przeglądarki www możliwe jest automatyczne zasłanianie okien po zmierzchu, odsłanianie okien wraz ze wschodem Słońca lub o określonych godzinach. Sterowanie możliwe jest również na żądanie w danej chwili.
 
 
 % =============================================================	
 	
-	\subsection{Backlog Item 6}
+	\subsection{Backlog Item 14}
 	\paragraph{Tytuł zadania:}
-	RGB.
+	Sterowanie kolorowym światłem.
 	
 	\paragraph{Opis zadania:}
-	Sterowanie oświetleniem RGB z możliwością wyboru koloru.
+	Montaż lamp LED umożliwiających uzyskanie w pomieszczeniu światła o wymaganym kolorze.
 	 
 	\paragraph{Priorytet:}
 	2
 	
 	\paragraph{Definition of Done:}
-	Światło zmienia swój kolor na wybrany przez stronę internetową.
+	Lampa LED zmienia kolor sterowana z poziomu wiersza poleceń.
+
+
+% =============================================================	
+
+	\subsection{Backlog Item 15}
+	\paragraph{Tytuł zadania:}
+	Program sterujący LED-ami.
+	
+	\paragraph{Opis zadania:}
+	Napisanie programu, dzięki któremu użytkownik przez stronę www może wybrać kolor światła.
+	
+	\paragraph{Priorytet:}
+	2
+	
+	\paragraph{Definition of Done:}
+	Możliwość zapalania, gaszenia oraz wybór koloru światła.
 
 
 % =============================================================	
 	
-	\subsection{Backlog Item 7}
+	\subsection{Backlog Item 16}
 	\paragraph{Tytuł zadania:}
-	Zapobieganie zalaniu wodą pomieszczenia.
+	Montaż czujników zapobiegających przelaniu wody oraz serwo (opcjonalnie).
 	
 	\paragraph{Opis zadania:} 
-	Instalacja czujników i napisanie programów zabezpieczających pomieszczenie (łazienkę) przed zalaniem poprzez zakręcenie głównego zaworu wody. 
+	Instalacja czujników poziomu wody w pomieszczeniach narażonych na zalanie.
 	
 	\paragraph{Priorytet:} 
 	1
 	
 	\paragraph{Definition of Done:}
-	Czujnik reaguje na zalanie.
+	Z poziomu wiersza poleceń można sprawdzić stan czujnika wysokość wody. Można również zakręcić zawór wody wysyłając sygnał do serwo mechanizmu.
+
+% =============================================================	
+
+	\subsection{Backlog Item 17}
+	\paragraph{Tytuł zadania:}
+	Program zabezpieczający łazienkę przed zalaniem (opcjonalnie).
+	
+	\paragraph{Opis zadania:} 
+	Napisanie programu, który w przypadku otrzymania sygnału od czujnika wody zakręci główny zawór wody. 
+	
+	\paragraph{Priorytet:} 
+	1
+	
+	\paragraph{Definition of Done:}
+	W chwili, gdy czujnik wody odczyta informację o niebezpiecznej sytuacji, uruchomi serwo mechanizm zakręcający główny zawór wody.
 
 % =============================================================	
 
 %   Backlog item zapas	
 %	\subsection{Backlog Item 4}
-%	\paragraph{Tytuł zadania.} <<Tytuł>>.
+%	\paragraph{Tytuł zadania.} Tytuł.
 %	\paragraph{Opis zadania.} 
-%	\paragraph{Priorytet.} <<Priorytet>>.
-%	\paragraph{Definition of Done.} <<Określić (w języku zrozumiałym dla wszystkich członków zespołu), co oznacza ukończenie danego zadania>>.	
+%	\paragraph{Priorytet.} Priorytet.
+%	\paragraph{Definition of Done.} Określić (w języku zrozumiałym dla wszystkich członków zespołu), co oznacza ukończenie danego zadania.	
 	
