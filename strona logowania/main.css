@@ -1,0 +1,47 @@
+body.sigin-body {
+    background-color: aliceblue;
+}
+
+.container.sigin-container {
+    margin-top: 2%;
+}
+
+.card.sigin-card {
+    padding: 40px 0px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+img.sigin-img {
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+    width: 60%;
+    
+}
+
+form.sigin-form {
+    max-width: 350px;
+    margin: auto;
+
+
+}
+
+button.sigin-btn {
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+
+
+
+
+
+a.createnewaccount{
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
