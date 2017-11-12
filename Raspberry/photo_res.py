@@ -1,12 +1,7 @@
 #!/usr/bin/env python
+
+import RPi.GPIO as GPIO, time     
  
-# Example for RC timing reading for Raspberry Pi
-# Must be used with GPIO 0.3.1a or later - earlier verions
-# are not fast enough!
- 
-import RPi.GPIO as GPIO, time, os      
- 
-DEBUG = 1
 GPIO.setmode(GPIO.BCM)
  
 def RCtime (RCpin):

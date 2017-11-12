@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+{% block title %}Home Drive - Światło{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href={{ asset('css/lightswitch.css') }}>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <div class="jumbotron">
+    <h1>Światło</h1>
+    <p>Sterowanie oświetleniem w pomieszczeniach.</p>
+  </div>
+
+  <table class="table table-striped">
+    <tr><th>Pomieszczenie</th><th>Światło</th></tr>
+    {% for room, status in rooms %}
+        <tr>
+          <th>{{ room }}</th>
+          <td>
+            <a
+            {% if status == "OFF" %}
+            class="btn btn-danger"
+            {% else %}
+            class="btn btn-info"
+            {% endif %}
+            href={{path('light_transmitter', {'tid': room})}}>{{ status }}</a>
+          </td>
+    	</tr>
+    {% endfor %}
+
+  </table>
+</div>
+{% endblock %}
