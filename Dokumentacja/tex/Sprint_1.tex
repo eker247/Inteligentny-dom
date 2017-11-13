@@ -56,11 +56,14 @@
   Przekierowanie odpowiednich portów routera do sieci zewnętrzej.
  	   	   
 	\paragraph{Tytuł zadania.} Przygotowanie serwera www.
-	\subparagraph{Wykonawca.} Drzyzga Sławomir.
-	\subparagraph{Realizacja.} Sprawozdanie z realizacji zadania (w tym ocena zgodności z estymatą). Kod programu (środowisko \texttt{verbatim}): \begin{verbatim}
-	for (i=1; i<10; i++)
-	...
-	\end{verbatim}.
+\subparagraph{Wykonawca.} Drzyzga Sławomir.
+\subparagraph{Realizacja.} 
+Konfigurowanie plików systemowych na komputerze Raspbberry. Zmiana uprawnień w katalogu z plikami PHP. Konfiguracja serwera ftp i przeniesienie plików interfejsu WWW do wybranego katalogu. Wskazanie ruchu z sieci na plik index w katalogu (sites-enabled) ./html/web.
+\begin{verbatim}
+DocumentRoot /var/www/html/web
+DirectoryIndex /var/www/html/web/app.php
+\end{verbatim}.
+
 	
 	\paragraph{Tytuł zadania.} Zabezpieczenie przed niepożądanym ruchem z sieci.
 	\subparagraph{Wykonawca.} Homoncik Tomasz.
@@ -102,5 +105,5 @@
 % =============================================================		
 	
 	\subsection{Sprint Review/Demo}
-	Sprawozdanie z przeglądu Sprint'u -- czy założony cel (przyrost) został osiągnięty oraz czy wszystkie zaplanowane Backlog Item'y zostały zrealizowane? Demostracja przyrostu produktu.
+	Dwutygodniowy sprint zakończony powodzeniem. Wszystkie założenia zostały zrealizowane w terminie. Nieprzewidywalnie działający czujnik ruchu zostanie wymieniony na nowy w następnym sprincie.
 	

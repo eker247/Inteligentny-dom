@@ -16,6 +16,10 @@
 
     </head>
     <body>
+        <form action="{{ path('login') }}" method="post">
+            <input type="hidden" id="username" name="_username" value="logout" />
+            <input type="hidden" id="password" name="_password" value="logout" />
+        </form>
         <nav class="navbar navbar-default">
           <div class="container-fluid">
             <div class="navbar-header">
@@ -24,6 +28,7 @@
             <ul class="nav navbar-nav">
               <li class="active"><a href={{path('homedrive_index')}}>Home</a></li>
               <li><a href={{path('light_index')}}>Światło</a></li>
+              <li><a href="" onclick="document.forms[0].submit();return false;">Wyloguj</a></li>
             </ul>
           </div>
         </nav>
