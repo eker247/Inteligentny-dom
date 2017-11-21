@@ -15,32 +15,32 @@
 {% endif %}
 
 <div class="container sigin-container">
-        <div class="row">
-            <div class="col"> </div>
-            <div class="col-sm-12 col-md-8">
-                <div class="card sigin-card">
-                    <div class="card-block">
-                    <!-- blok/forma -->
-                        <img src="{{ asset('assets/inthome.png') }}" class="img-fluid sigin-img">
-                        <form class="sigin-form" action="{{ path('login') }}" method="post">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="username" name="_username" value="{{ last_username }}" placeholder="użytkownik">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="password" name="_password" placeholder="hasło">
-                            </div>
-                            <button type="submit" class="btn btn-outline-warning sigin-btn">Zaloguj</button>
-                            <!-- check box -->
-                            <div class="form-check">
-                            </div>
-                        </form>
-                    </div>
+    <div class="row">
+        <div class="col"> </div>
+        <div class="col-sm-12 col-md-8">
+            <div class="card sigin-card">
+                <div class="card-block">
+                <!-- blok/forma -->
+                    <img src="{{ asset('assets/inthome.png') }}" class="img-fluid sigin-img">
+                    <form class="sigin-form" action="{{ path('login') }}" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="username" name="_username" value="{{ last_username }}" placeholder="użytkownik">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password" name="_password" placeholder="hasło">
+                        </div>
+                        <button type="submit" class="btn btn-outline-warning sigin-btn">Zaloguj</button>
+                        <!-- check box -->
+                        <div class="form-check">
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="col"> </div>
         </div>
+        <div class="col"> </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="{{ asset('bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js') }}"></script>
 {% endblock %}

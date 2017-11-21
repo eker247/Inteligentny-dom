@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+{% block title %}Home Drive - Światło{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href={{ asset('css/lightswitch.css') }}>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <div class="jumbotron">
+    <h1>Temperatura</h1>
+    <p>Sprawdzanie i regulowanie temperatury w pomieszczeniach.</p>
+  </div>
+<form class="" action={{path('temp_setter')}} method="post">
+
+  <table class="table table-striped">
+    <tr><th>Pomieszczenie</th><th>Aktualna temperatura</th>
+        <th>Wymagana temperatura</th><th>Tolerancja</th></tr>
+    {% for room, info in rooms %}
+        <tr>
+          <th>{{ room }}</th>
+          <td>
+              <p>
+                  {{ info[1] }}°C
+              </p>
+          </td>
+          <td>
+              <input type="text" name="required_temp" value={{ info[2] }} />
+          </td>
+          <td>
+              <input type="text" name="tolerance" value={{ info[3] }} />
+          </td>
+          <td>
+              <input type="submit" class="btn btn-success" name="set" value="Ustaw" />
+          </td>
+    	</tr>
+    {% endfor %}
+
+  </table>
+</div>
+
+</form>
+{% endblock %}

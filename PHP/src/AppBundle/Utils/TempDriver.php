@@ -5,15 +5,19 @@ use Symfony\Component\Config\Definition\Exception\Exception;
 /**
  *
  */
-class LightDriver
+class TempDriver
 {
-    // numery przekaźników dla każdej lampy
+    // room => [0, 1, 2, 3]
+    // 0 - pin's number
+    // 1 - actual temperature
+    // 2 - required temperature
+    // 3 - tolerance
     private $rooms = [
-        'Pokój 1' => 11,
-        'Pokój 2' => 11,
-        'Kuchnia' => 11,
-        'Łazienka' => 11,
-        'Korytarz' => 11,
+        'Pokój 1' => [11, 22, 22, 1],
+        'Pokój 2' => [11, 22, 22, 1],
+        'Kuchnia' => [11, 21, 20, 3],
+        'Łazienka' => [11, 22, 22, 1],
+        'Korytarz' => [11, 20, 19, 2],
     ];
 
     public function RelayOn($id)
@@ -41,18 +45,17 @@ class LightDriver
         }
     }
 
-    public function RelayStat($id)
+    public function TempStat($id)
     {
         return exec('gpio -1 read ' . $id);
     }
 
-    public function LampStatuses()
+    public function TempStatuses()
     {
-        $status = ['OFF', 'ON'];
-        $lamps = [];     // table of rooms and lamp status
-        foreach ($this->rooms as $key => $value) {
-            $lamps[$key] = $status[(int) $this->RelayStat($value)];
-        }
-        return $lamps;
+        // $temps = [];
+        // foreach ($rooms as $key => $value) {
+        //     $temps[$key];
+        // }
+        return $this->rooms;
     }
 }
