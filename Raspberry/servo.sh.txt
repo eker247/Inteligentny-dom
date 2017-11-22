@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#gpio -1 mode 32 pwm
+#gpio pwm-ms
+#gpio pwmc 192
+#gpio pwmr 2000
+
+if [ $2 -lt 0 ] ; then
+    value=0
+elif [ $2 -gt 100 ] ; then
+    value=100
+else
+    value=$2
+fi
+
+value=$[$value*155/100+65]
+gpio -1 pwm $1 $value
+
