@@ -57,10 +57,7 @@ for (i=1; i<10; i++)
 
 \paragraph{Tytuł zadania.} Sterowanie światłem zewnętrznym (napisanie programu).
 \subparagraph{Wykonawca.} Fornagiel Krzysztof, Homoncik Tomasz.
-\subparagraph{Realizacja.} Sprawozdanie z realizacji zadania (w tym ocena zgodności z estymatą). Kod programu (środowisko \texttt{verbatim}): \begin{verbatim}
-for (i=1; i<10; i++)
-...
-\end{verbatim}.
+\subparagraph{Realizacja.} Program sterujący oświetleniem zewnętrznym uruchomiony jest niezależnie od pozostałej części systemu. Światło w okół posesji zapalane jest, kiedy na zewnątrz jest ciemno (dane z czujnika światła) oraz czujnik ruchu wykryje ruch.
 
 \paragraph{Tytuł zadania.} Czujnik temperatury i serwo mechanizm (montaż).
 \subparagraph{Wykonawca.} Drozd Daniel.
@@ -71,7 +68,12 @@ for (i=1; i<10; i++)
 
 \paragraph{Tytuł zadania.} Program sterujący ogrzewaniem.
 \subparagraph{Wykonawca.} Drzyzga Sławomir, Fornagiel Krzysztof, Homoncik Tomasz.
-\subparagraph{Realizacja.} Skrypt odczytujący dane z czujnika temperatury. Jako argumenty przyjmuje numery pinów z podłączonymi czujnikami DHT11. Wartością zwracaną jest string z temperaturami w stopniach Celsiusza z jednym miejscem po przecinku, oddzielone spacjami. Skrypt sterujący serwo mechanizmem. Pierwszym argumentem skryptu jest nr pinu, pod który podpięty jest serwo mechanizm. Drugim parametrem jest wartoś procentowa od 0 do 100, oznaczająca stopień obrócenia osi mechanizmu. W ten sposób serwo jest podpięty pod zawór kaloryfera jest w stanie zmniejszać i zwiększać szybkość przepływu ciepłej wody.
+\subparagraph{Realizacja.} Skrypt odczytujący dane z czujnika temperatury. Jako argumenty przyjmuje numery pinów z podłączonymi czujnikami DHT11. Wartością zwracaną jest string z temperaturą pomieszczeń w stopniach Celsiusza z jednym miejscem po przecinku, oddzielone spacjami. 
+\break
+Skrypt sterujący serwo mechanizmem. Pierwszym argumentem skryptu jest nr pinu, pod który podpięty jest serwo mechanizm. Drugim parametrem jest wartość procentowa od 0 do 100, oznaczająca stopień obrócenia osi mechanizmu. W ten sposób serwo jest podpięty pod zawór kaloryfera jest w stanie zmniejszać i zwiększać szybkość przepływu ciepłej wody.
+\break
+Do sterowania systemem napisany został skrypt w PHP, uruchomiony niezależnie od serwera. Odczytuje on z pliku dane o liczbie pomieszczeń oraz numery pinów dla czujników temperatury i serwo mechanizmów.
+Do strony trzeba było dodać formularz do wprowadzania temperatury dla każdego pomieszczenia.
 
 
 % =============================================================		

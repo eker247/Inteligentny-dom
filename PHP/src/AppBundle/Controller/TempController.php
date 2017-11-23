@@ -31,10 +31,11 @@ class TempController extends Controller
     /**
      * @Security("has_role('ROLE_ADMIN')")
      */
-    public function tempSetterAction($tid = 0, $actual, $required, $tolerance)
+    public function tempSetterAction($tid = 0, $actual = 0, $required = 0, $tolerance = 0)
     {
-
-        return new Response("tutaj");
+        $this->driver->setTemps($_POST);
+        // return new Response("<br />Wygenerował");
+        return $this->redirectToRoute('temp_index');
         // try {
         //     $this->driver->SwitchLight($tid);
         // }

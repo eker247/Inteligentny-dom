@@ -25,17 +25,24 @@
               </p>
           </td>
           <td>
-              <input type="text" name="required_temp" value={{ info[2] }} />
+              <input type="text" name="required_temp{{ room }}" value={{ info[2] }} />
           </td>
           <td>
-              <input type="text" name="tolerance" value={{ info[3] }} />
+              <input type="text" name="tolerance{{ room }}" value={{ info[3] }} />
           </td>
-          <td>
-              <input type="submit" class="btn btn-success" name="set" value="Ustaw" />
-          </td>
+          <!-- <td>
+              <a class="btn btn-success" href={{ path("temp_setter",
+              {'tid' : room, 'actual' : 1, 'required' : 1, 'tolerance' : 1}) }}>Ustaw</a>
+          </td> -->
     	</tr>
     {% endfor %}
-
+<tr>
+    <th colspan="4">
+        <center>
+            <input type="submit" class="btn btn-success" name="send" value="Zapisz zmiany" />
+        </center>
+    </th>
+</tr>
   </table>
 </div>
 
