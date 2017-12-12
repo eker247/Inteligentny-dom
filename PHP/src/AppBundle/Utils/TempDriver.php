@@ -79,6 +79,7 @@ class TempDriver
         foreach ($this->rooms as $key => $value) {
             $cmd .= (string)$value[0] . ' ';
         }
+        // var_dump($cmd);
         // exec return string, getFloats changes it to floats array
         $temps = $this->getFloats(exec($cmd));
         $i = 0;

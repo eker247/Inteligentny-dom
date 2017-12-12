@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+{% block title %}Home Drive - Dioda LED{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href={{ asset('css/lightswitch.css') }}>
+{% endblock %}
+
+{% block body %}
+<div class="container" >
+  <div class="jumbotron"
+       style="background-image:url('{{asset("img/bg_blinds.jpg")}}');
+              background-repeat: no-repeat;
+              background-position: right; ">
+    <h1>LED</h1>
+    <p>Sterowanie barwą światła.</p>
+  </div>
+</div>
+<div class="container" style="text-align: center;">
+  <p>Wybierz kolor światła lampy LED. Czarny oznacza wyłączone światło.</p>
+  <div class="" style="background-color: #c3c3c3; text-align: center; padding: 10px 10px 10px 10px; ">
+    <a href="{{path('led_index', {'color': '#000'}) }}" class="btn" style="background: #000"></a>
+    <a href="{{path('led_index', {'color': '#00f'}) }}" class="btn" style="background: #00f"></a>
+    <a href="{{path('led_index', {'color': '#0f0'}) }}" class="btn" style="background: #0f0"></a>
+    <a href="{{path('led_index', {'color': '#0ff'}) }}" class="btn" style="background: #0ff"></a>
+    <a href="{{path('led_index', {'color': '#f00'}) }}" class="btn" style="background: #f00"></a>
+    <a href="{{path('led_index', {'color': '#f0f'}) }}" class="btn" style="background: #f0f"></a>
+    <a href="{{path('led_index', {'color': '#ff0'}) }}" class="btn" style="background: #ff0"></a>
+    <a href="{{path('led_index', {'color': '#fff'}) }}" class="btn" style="background: #fff"></a>
+    <p>Aktualny kolor:</p>
+    <figure class="" style="position: relative;
+                         left: 45%;
+                         background-color: {{ color }};
+                         width: 10%; height: 80px;">
+    </figure>
+  </div>
+</div>
+{% endblock %}

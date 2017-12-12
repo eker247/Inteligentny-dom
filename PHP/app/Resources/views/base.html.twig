@@ -20,19 +20,33 @@
             <input type="hidden" id="username" name="_username" value="logout" />
             <input type="hidden" id="password" name="_password" value="logout" />
         </form>
+
         <nav class="navbar navbar-default">
           <div class="container-fluid">
             <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
               <a class="navbar-brand" href={{path('homedrive_index')}}>Home Drive</a>
             </div>
-            <ul class="nav navbar-nav">
-              <li><a href={{path('light_index')}}>Światło</a></li>
-              <li><a href={{path('blind_index')}}>Rolety</a></li>
-              <li><a href={{path('temp_index')}}>Temperatura</a></li>
-              <li><a href="" onclick="document.forms[0].submit();return false;">Wyloguj</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <li><a href={{path('light_index')}}>Światło</a></li>
+                  <li><a href={{path('blind_index')}}>Rolety</a></li>
+                  <li><a href={{path('led_index', {'color': '#7e0'})}}>LED</a></li>
+                  <li><a href={{path('temp_index')}}>Temperatura</a>
+                </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="" onclick="document.forms[0].submit();return false;">Wyloguj</a></li>
+              </ul>
+            </div>
           </div>
         </nav>
+
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>

@@ -10,7 +10,7 @@ use Symfony\Component\Config\Definition\Exception\Exception;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 
 
-class BlindController extends Controller
+class LedController extends Controller
 {
     private $driver;
     public function __construct()
@@ -21,10 +21,11 @@ class BlindController extends Controller
     /**
      * @Security("has_role('ROLE_ADMIN')")
      */
-    public function indexAction(Request $request)
+    public function indexAction(Request $request, $color = "black")
     {
+        // var_dump($color);
         $rooms = $this->driver->LampStatuses();
-        return $this->render('blind/index.html.twig', ['rooms' => $rooms]);
+        return $this->render('led/index.html.twig', ['rooms' => $rooms, 'color' => $color]);
     }
 
     // /**
