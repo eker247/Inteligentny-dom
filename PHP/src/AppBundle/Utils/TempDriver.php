@@ -81,7 +81,8 @@ class TempDriver
         }
         // var_dump($cmd);
         // exec return string, getFloats changes it to floats array
-        $temps = $this->getFloats(exec($cmd));
+        // $temps = $this->getFloats(exec($cmd));
+        $temps = [20, 21, 22, 19, 19];
         $i = 0;
         // for each room set current temperature
         foreach ($this->rooms as $key => $value) {

@@ -5,7 +5,7 @@ namespace AppBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use AppBundle\Utils\LightDriver;
+use AppBundle\Utils\LedDriver;
 use Symfony\Component\Config\Definition\Exception\Exception;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 
@@ -15,30 +15,26 @@ class LedController extends Controller
     private $driver;
     public function __construct()
     {
-        $this->driver = new LightDriver();
+        $this->driver = new LedDriver();
     }
 
     /**
      * @Security("has_role('ROLE_ADMIN')")
      */
-    public function indexAction(Request $request, $color = "black")
+    public function indexAction(Request $request)
     {
-        // var_dump($color);
-        $rooms = $this->driver->LampStatuses();
-        return $this->render('led/index.html.twig', ['rooms' => $rooms, 'color' => $color]);
+        $color = $this->driver->readColor();
+        return $this->render('led/index.html.twig', ['color' => $color]);
     }
 
-    // /**
-    //  * @Security("has_role('ROLE_ADMIN')")
-    //  */
-    // public function transmitterAction($tid = 0)
-    // {
-    //     try {
-    //         $this->driver->SwitchLight($tid);
-    //     }
-    //     catch (Exception $ex) {
-    //         return new Response($ex->getMessage());
-    //     }
-    //     return $this->redirectToRoute('light_index');
-    // }
+    /**
+     * @Security("has_role('ROLE_ADMIN')")
+     */
+    public function setcolorAction(Request $request, $color)
+    {
+        var_dump($color);
+        $this->driver->setColor($color);
+        // return new Response("");
+        return $this->redirectToRoute('led_index');
+    }
 }

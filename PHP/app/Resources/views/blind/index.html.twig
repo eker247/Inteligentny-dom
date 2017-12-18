@@ -16,18 +16,18 @@
   </div>
 
   <table class="table table-striped">
-    <tr><th>Pomieszczenie</th><th>Światło</th></tr>
+    <tr><th>Pomieszczenie</th><th>Stan</th></tr>
     {% for room, status in rooms %}
         <tr>
           <th>{{ room }}</th>
           <td>
             <a
-            {% if status == "OFF" %}
+            {% if status == "Dół" %}
             class="btn btn-danger"
             {% else %}
             class="btn btn-info"
             {% endif %}
-            href={{path('light_transmitter', {'tid': room})}}>{{ status }}</a>
+            href={{path('blind_switchBlind', {'tid': room})}}>{{ status }}</a>
           </td>
     	</tr>
     {% endfor %}
