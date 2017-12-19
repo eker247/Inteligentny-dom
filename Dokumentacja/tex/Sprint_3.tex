@@ -41,21 +41,28 @@ Instalacja czujników światła oraz założenie serwo mechanizmów do rolet umo
 
 \paragraph{Tytuł zadania.} Sterowanie roletami (montaż).
 \subparagraph{Wykonawca.} Drozd Daniel.
-\subparagraph{Realizacja.} Sprawozdanie z realizacji zadania (w tym ocena zgodności z estymatą). Kod programu (środowisko \texttt{verbatim}): \begin{verbatim}
-for (i=1; i<10; i++)
-...
-\end{verbatim}.
+\subparagraph{Realizacja.} Połączenie serwomechanizmu.
+\subparagraph{Serwomechanizm}
 
+\begin{itemize}
+	\item + 5 V
+	\item GND
+	\item Sygnał - GPIO 12
+\end{itemize}
 \paragraph{Tytuł zadania.} Sterowanie roletami ze strony www (programy).
 \subparagraph{Wykonawca.} Fornagiel Krzysztof, Drzyzga Sławomir.
 \subparagraph{Realizacja.} Wykonanie interfejsu do sterowania roletami oraz oświetleniem LED. Zostały dołożone 2 kontrolery i widoki z przyciskami umożliwiającymi sterowanie. Dodany dodatkowy plik komunikujący się z programem do sterowania kolorowym światłem. W pliku ~/.bashrc została dopisana linijka uruchamiająca skrypt setpins.sh, który ustawia odpowiednie wartości poszczególnym pinom w Raspberry. Dzięki temu po ponownym uruchomieniu komputera wszystkie urządzenia będą zachowywały się w zaplanowany przez nas sposób. Do działania systemu należy uruchomić skrypt blinds_driver.php zasłaniający i odsłaniający rolety automatycznie, zgodnie z porą dnia pod warunkiem, że użytkownik na stronie internetowej nie wskazał inaczej.
-
 \paragraph{Tytuł zadania.} Sterowanie kolorowym światłem (montaż).
 \subparagraph{Wykonawca.} Drozd Daniel.
-\subparagraph{Realizacja.} Sprawozdanie z realizacji zadania (w tym ocena zgodności z estymatą). Kod programu (środowisko \texttt{verbatim}): \begin{verbatim}
-for (i=1; i<10; i++)
-...
-\end{verbatim}.
+\subparagraph{Realizacja.} Połączenie led RGB
+\subparagraph{RGB LED}
+
+\begin{itemize}
+	\item R pin - GPIO 5
+	\item G pin - GPIO 6
+	\item B pin - GPIO 26
+	\item GND - GND
+\end{itemize}
 
 \paragraph{Tytuł zadania.} Program sterujący LED-ami.
 \subparagraph{Wykonawca.} Fornagiel Krzysztof, Homoncik Tomasz.
