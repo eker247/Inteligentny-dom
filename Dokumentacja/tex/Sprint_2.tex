@@ -94,6 +94,15 @@ Skrypt sterujący serwo mechanizmem. Pierwszym argumentem skryptu jest nr pinu, 
 \break
 Do sterowania systemem napisany został skrypt w PHP, uruchomiony niezależnie od serwera. Odczytuje on z pliku dane o liczbie pomieszczeń oraz numery pinów dla czujników temperatury i serwo mechanizmów.
 Do strony trzeba było dodać formularz do wprowadzania temperatury dla każdego pomieszczenia.
+\subparagraph{}
+Skrypt odczytujący temperaturę - temp\_loop. \\
+Należy wpisać polecenie sudo ./temp\_loop \& w celu uruchomienia programu w tle
+\begin{verbatim}
+while [ true ]; do 
+	echo $(python temperature.py 4 4 4 4 4) > temperature.txt; 
+	sleep 15; 
+done;
+\end{verbatim}
 
 
 % =============================================================		
