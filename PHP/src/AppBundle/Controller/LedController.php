@@ -32,7 +32,6 @@ class LedController extends Controller
      */
     public function setcolorAction(Request $request, $color)
     {
-        var_dump($color);
         $this->driver->setColor($color);
         // return new Response("");
         return $this->redirectToRoute('led_index');

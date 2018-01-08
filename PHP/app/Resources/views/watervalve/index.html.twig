@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+{% block title %}Home Drive - Zawór wody{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href={{ asset('css/lightswitch.css') }}>
+{% endblock %}
+
+{% block body %}
+<div class="container" >
+  <div class="jumbotron"
+       style="background-image:url('{{asset("img/bg_watervalve.jpg")}}');
+              background-repeat: no-repeat;
+              background-position: right; ">
+    <h1>Woda</h1>
+    <p>Główny zawór wody</p>
+  </div>
+</div>
+<div class="container" style="text-align: center;">
+</div>
+
+<p style="text-align: center;">
+Główny zawór wody
+<a
+{% if status == "OTWARTY" %}
+    class="btn btn-info"
+{% else %}
+    class="btn btn-danger"
+{% endif %}
+href={{path('watervalve_change')}}>{{ status }}</a>
+</p>
+
+{% endblock %}
