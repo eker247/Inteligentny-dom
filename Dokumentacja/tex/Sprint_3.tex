@@ -9,7 +9,7 @@
 \subsection{Cel} 
 
 
-Instalacja czujników światła oraz założenie serwo mechanizmów do rolet umożliwi sterowanie światłem dziennym w pomieszczeniu. Użytkownik będzie mógł w dowolnej chwili zasłonić okna lub wpisać aby okna zasłaniały się automatycznie, aby nie przeszkadzały mu w oglądaniu telewizji (historie 3 i 4). Trójkolorowe lampy LED umożliwią emitowanie światła o wybranym kolorze z zakresu RGB. Ze strony www będzie można wybrać kolor jaki rozświetli pomieszczenie (historia 9).
+Instalacja czujników światła oraz założenie serwo mechanizmów do rolet umożliwi sterowanie światłem dziennym w~pomieszczeniu. Użytkownik będzie mógł w~dowolnej chwili zasłonić okna lub wpisać aby okna zasłaniały się automatycznie, aby nie przeszkadzały mu w~oglądaniu telewizji (historie 3 i~4). Trójkolorowe lampy LED umożliwią emitowanie światła o~wybranym kolorze z~zakresu RGB. Ze strony www będzie można wybrać kolor jaki rozświetli pomieszczenie (historia 9).
 
 
 
@@ -51,7 +51,7 @@ Instalacja czujników światła oraz założenie serwo mechanizmów do rolet umo
 \end{itemize}
 \paragraph{Tytuł zadania.} Sterowanie roletami ze strony www (programy).
 \subparagraph{Wykonawca.} Fornagiel Krzysztof, Drzyzga Sławomir.
-\subparagraph{Realizacja.} Wykonanie interfejsu do sterowania roletami oraz oświetleniem LED. Zostały dołożone 2 kontrolery i widoki z przyciskami umożliwiającymi sterowanie. Dodany dodatkowy plik komunikujący się z programem do sterowania kolorowym światłem. W pliku ~/.bashrc została dopisana linijka uruchamiająca skrypt setpins.sh, który ustawia odpowiednie wartości poszczególnym pinom w Raspberry. Dzięki temu po ponownym uruchomieniu komputera wszystkie urządzenia będą zachowywały się w zaplanowany przez nas sposób. Do działania systemu należy uruchomić skrypt blinds\_driver.php zasłaniający i odsłaniający rolety automatycznie, zgodnie z porą dnia pod warunkiem, że użytkownik na stronie internetowej nie wskazał inaczej.
+\subparagraph{Realizacja.} Wykonanie interfejsu do sterowania roletami oraz oświetleniem LED. Zostały dołożone 2 kontrolery i~widoki z~przyciskami umożliwiającymi sterowanie. Dodany dodatkowy plik komunikujący się z~programem do sterowania kolorowym światłem. W pliku ~/.bashrc została dopisana linijka uruchamiająca skrypt setpins.sh, który ustawia odpowiednie wartości poszczególnym pinom w~Raspberry. Dzięki temu po ponownym uruchomieniu komputera wszystkie urządzenia będą zachowywały się w~zaplanowany przez nas sposób. Do działania systemu należy uruchomić skrypt blinds\_driver.php zasłaniający i~odsłaniający rolety automatycznie, zgodnie z~porą dnia pod warunkiem, że użytkownik na stronie internetowej nie wskazał inaczej.
 \paragraph{Tytuł zadania.} Sterowanie kolorowym światłem (montaż).
 \subparagraph{Wykonawca.} Drozd Daniel.
 \subparagraph{Realizacja.} Połączenie led RGB
@@ -66,9 +66,9 @@ Instalacja czujników światła oraz założenie serwo mechanizmów do rolet umo
 
 \paragraph{Tytuł zadania.} Program sterujący LED-ami.
 \subparagraph{Wykonawca.} Fornagiel Krzysztof, Homoncik Tomasz.
-\subparagraph{Realizacja.} Program sterujący kolorem światła lampy LED został napisany w bashu. Zmiana koloru następuje poprzez podania napięcia 5V lub 0V na poszczególne katody. Dzięki temu światło może być wyłączone lub przyjąć jeden z 7 kolorów. Przystępując do zadania założyliśmy, że na katody można podawać pośrednie napięcia w celu uzyskania szerszej gamy kolorów. Założenie sprawdziło się na katodzie odpowiedzialnej za kolor czerwony. Podając pośrednie napięcia na kolor niebieski lub zielony, dioda zachowywała się nieprzewidywalnie. Pisząc program dowiedzieliśmy się również, że bash nie operuje na liczbach zmiennoprzecinkowych (próbując przydzielić dla każdej liczby z zakresu 0-255 odpowiednie napięcie z zakresu 0-2000). Zostały również dodane pliki do strony WWW, dzięki którym możliwe jest zdalne sterowanie kolorowym światłem.
+\subparagraph{Realizacja.} Program sterujący kolorem światła lampy LED został napisany w~bashu. Zmiana koloru następuje poprzez podania napięcia 5V lub 0V na poszczególne katody. Dzięki temu światło może być wyłączone lub przyjąć jeden z~7 kolorów. Przystępując do zadania założyliśmy, że na katody można podawać pośrednie napięcia w~celu uzyskania szerszej gamy kolorów. Założenie sprawdziło się na katodzie odpowiedzialnej za kolor czerwony. Podając pośrednie napięcia na kolor niebieski lub zielony, dioda zachowywała się nieprzewidywalnie. Pisząc program dowiedzieliśmy się również, że bash nie operuje na liczbach zmiennoprzecinkowych (próbując przydzielić dla każdej liczby z~zakresu 0-255 odpowiednie napięcie z~zakresu 0-2000). Zostały również dodane pliki do strony WWW, dzięki którym możliwe jest zdalne sterowanie kolorowym światłem.
 
 % =============================================================		
 
 \subsection{Sprint Review/Demo}
-Sprint przebiegł pomyślnie. Wszystkie założenia zostały zrealizowane i zaakceptowane.
+Sprint przebiegł pomyślnie. Wszystkie założenia zostały zrealizowane i~zaakceptowane.

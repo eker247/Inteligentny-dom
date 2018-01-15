@@ -9,7 +9,7 @@
 \subsection{Cel} 
 
 	
-	W celu zrealizowania zadań z historii 7 i 8 musimy wykonać szereg dodatkowych czynności. Aby było możliwe zdalne sterowanie przez stronę www należy skonfigurować router, podłączyć komputer, zainstalować serwer www, interpreter PHP, bazę danych, aplikację ddns, firewall, napisać pierwszą wersję strony internetowej z możliwością sterowania światłem i przekaźnikami. Dodatkowo należy wykonać połączenie 3 czujników (Pir, przekaźniki, fotorezystor) i napisać odpowiednie skrypty.
+	W celu zrealizowania zadań z~historii 7 i~8 musimy wykonać szereg dodatkowych czynności. Aby było możliwe zdalne sterowanie przez stronę www należy skonfigurować router, podłączyć komputer, zainstalować serwer www, interpreter PHP, bazę danych, aplikację ddns, firewall, napisać pierwszą wersję strony internetowej z~możliwością sterowania światłem i~przekaźnikami. Dodatkowo należy wykonać połączenie 3 czujników (Pir, przekaźniki, fotorezystor) i~napisać odpowiednie skrypty.
 	
 	
 	
@@ -25,7 +25,7 @@
 		\item Estymata: szacowana czasochłonność: ,,S''.
 	\end{itemize}
 	
-	\paragraph{Tytuł zadania.} Zabezpieczenie przed niepożądanym ruchem z sieci.
+	\paragraph{Tytuł zadania.} Zabezpieczenie przed niepożądanym ruchem z~sieci.
 	\begin{itemize}
 		\item Estymata: szacowana czasochłonność: ,,S''.
 	\end{itemize}
@@ -35,12 +35,12 @@
 		\item Estymata: szacowana czasochłonność: ,,M''.
 	\end{itemize}
 	
-	\paragraph{Tytuł zadania.} Montaż przekaźników do sterowania światłem i gniazdami.
+	\paragraph{Tytuł zadania.} Montaż przekaźników do sterowania światłem i~gniazdami.
 	\begin{itemize}
 		\item Estymata: szacowana czasochłonność: ,,S''.
 	\end{itemize}
 	
-	\paragraph{Tytuł zadania.} Napisanie programu sterującego światłem i gniazdami.
+	\paragraph{Tytuł zadania.} Napisanie programu sterującego światłem i~gniazdami.
 	\begin{itemize}
 		\item Estymata: szacowana czasochłonność: ,,S''.
 	\end{itemize}
@@ -51,30 +51,30 @@
 	
 	\paragraph{Tytuł zadania.} Konfiguracja infrastruktury sieciowej.
 	\subparagraph{Wykonawca.} Drozd Daniel.
-	\subparagraph{Realizacja.} Przygotowanie serwera - raspberry pi, instalacja systemu Debian w wersji Raspbian. Przygotowanie serwera www, instalacja : Apache2 + PHP + MySQL + phpMyAdmin.
+	\subparagraph{Realizacja.} Przygotowanie serwera - raspberry pi, instalacja systemu Debian w~wersji Raspbian. Przygotowanie serwera www, instalacja : Apache2 + PHP + MySQL + phpMyAdmin.
   Stworzenie połączeń dla czujnika PIR, fotorezystora oraz przekaźnika. Stworzenie połączenia dynamicznego DNS, przekierowanie sieci na adres gerwant222.ddns.net
   Przekierowanie odpowiednich portów routera do sieci zewnętrzej.
  	   	   
 	\paragraph{Tytuł zadania.} Przygotowanie serwera www.
 \subparagraph{Wykonawca.} Drzyzga Sławomir.
 \subparagraph{Realizacja.} 
-Konfigurowanie plików systemowych na komputerze Raspbberry. Zmiana uprawnień w katalogu z plikami PHP. Konfiguracja serwera ftp i przeniesienie plików interfejsu WWW do wybranego katalogu. Wskazanie ruchu z sieci na plik index w katalogu (sites-enabled) ./html/web.
+Konfigurowanie plików systemowych na komputerze Raspberry. Zmiana uprawnień w~katalogu z~plikami PHP. Konfiguracja serwera ftp i~przeniesienie plików interfejsu WWW do wybranego katalogu. Wskazanie ruchu z~sieci na plik index w~katalogu (sites-enabled) ./html/web.
 \begin{verbatim}
 DocumentRoot /var/www/html/web
 DirectoryIndex /var/www/html/web/app.php
 \end{verbatim}.
 
 	
-	\paragraph{Tytuł zadania.} Zabezpieczenie przed niepożądanym ruchem z sieci.
+	\paragraph{Tytuł zadania.} Zabezpieczenie przed niepożądanym ruchem z~sieci.
 	\subparagraph{Wykonawca.} Homoncik Tomasz.
-	\subparagraph{Realizacja.} Instalacja firewalla. Zatrzymanie pracy uruchomionej zapory. Dodanie odpowiedznich reguł uniemożliwiających niepożądany dostęp z zewnątrz. Ponowne uruchomienie.
+	\subparagraph{Realizacja.} Instalacja firewalla. Zatrzymanie pracy uruchomionej zapory. Dodanie odpowiedznich reguł uniemożliwiających niepożądany dostęp z~zewnątrz. Ponowne uruchomienie.
 	
 	\paragraph{Tytuł zadania.} Stworzenie interfejsu www.
 	\subparagraph{Wykonawca.} Fornagiel Krzysztof.
 	\subparagraph{Realizacja.} 
-	Strona internetowa została stworzona w Symfony 3 - obecnie drugim najpopularniejszym frameworku MVC języka PHP. Technologia ta została wybrana ze względu na łatwość wdrożenia i niezawodność. Do generowania stron HTML używany jest system szablonów Twig. Użyty we frameworku wzorzec MVC ułatwia czytelność kodu oraz jego przenośność do innego systemu. Wbudowane komponenty pozwalają generować adresy URL zgodnie z naszymi preferencjami. Implementacja odbyła się zgodnie z planowanym czasem. 
+	Strona internetowa została stworzona w~Symfony 3 - obecnie drugim najpopularniejszym frameworku MVC języka PHP. Technologia ta została wybrana ze względu na łatwość wdrożenia i~niezawodność. Do generowania stron HTML używany jest system szablonów Twig. Użyty we frameworku wzorzec MVC ułatwia czytelność kodu oraz jego przenośność do innego systemu. Wbudowane komponenty pozwalają generować adresy URL zgodnie z~naszymi preferencjami. Implementacja odbyła się zgodnie z~planowanym czasem. 
 
-	\paragraph{Tytuł zadania.} Montaż przekaźników do sterowania światłem i gniazdami.
+	\paragraph{Tytuł zadania.} Montaż przekaźników do sterowania światłem i~gniazdami.
 	\subparagraph{Wykonawca.} Drozd Daniel.
 	\subparagraph{Realizacja.}   
 	
@@ -85,12 +85,12 @@ DirectoryIndex /var/www/html/web/app.php
  	\item Sygnał - GPIO 17
  \end{itemize}
 	
-	\paragraph{Tytuł zadania.} Napisanie programu sterującego światłem i gniazdami.
+	\paragraph{Tytuł zadania.} Napisanie programu sterującego światłem i~gniazdami.
 	\subparagraph{Wykonawca.} Fornagiel Krzysztof.
-	\subparagraph{Realizacja.} Program sterujący lampami i gniazdami w domu znajduje się w plikach PHP. Jest to wygodne, ponieważ cały system jest bardziej zwarty i mniej podatny na awarie. Z powodu uszkodzonych 2 czujników nie zostało wykonane sterowanie światłem zewnętrznym, zależącego od pory dnia i występowania ruchu na posesji.
+	\subparagraph{Realizacja.} Program sterujący lampami i~gniazdami w~domu znajduje się w~plikach PHP. Jest to wygodne, ponieważ cały system jest bardziej zwarty i~mniej podatny na awarie. Z powodu uszkodzonych 2 czujników nie zostało wykonane sterowanie światłem zewnętrznym, zależącego od pory dnia i~występowania ruchu na posesji.
 
 % =============================================================		
 	
 	\subsection{Sprint Review/Demo}
-	Dwutygodniowy sprint zakończony powodzeniem. Klient zaakceptował pierwszą zaprezentowaną wersję aplikacji, można przejść do następnych sprintów. Wszystkie założenia zostały zrealizowane w terminie. W dniu prezentacji pojawiły się problemy z wadliwie działającym czujnikiem ruchu. Ostatecznie udało się wyregulować czujnik przed prezentacją systemu.
+	Dwutygodniowy sprint zakończony powodzeniem. Klient zaakceptował pierwszą zaprezentowaną wersję aplikacji, można przejść do następnych sprintów. Wszystkie założenia zostały zrealizowane w~terminie. W dniu prezentacji pojawiły się problemy z~wadliwie działającym czujnikiem ruchu. Ostatecznie udało się wyregulować czujnik przed prezentacją systemu.
 	

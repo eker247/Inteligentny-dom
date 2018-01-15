@@ -9,7 +9,7 @@
 \subsection{Cel} 
 
 
-Aby zapobiec uzyskaniu dostępu do sterowania inteligentnym domem osobom niepowołanym, należy zalogować się do systemu przez wpisanie nazwy użytkownika i hasła. W celu realizacji następnych wymagań użytkowników opisanych w historiach 1, 2 i 6 należy zamontować czujniki temperatury, światła, ruchu, przekaźniki i serwo mechanizmy. Po ukończeniu sprintu powinno być możliwe sterowanie ogrzewaniem ze strony www oraz automatyczne zapalanie światła w chwili zauważenia ruchu przez czujnik PIR. 
+Aby zapobiec uzyskaniu dostępu do sterowania inteligentnym domem osobom niepowołanym, należy zalogować się do systemu przez wpisanie nazwy użytkownika i~hasła. W celu realizacji następnych wymagań użytkowników opisanych w~historiach 1, 2 i~6 należy zamontować czujniki temperatury, światła, ruchu, przekaźniki i~serwo mechanizmy. Po ukończeniu sprintu powinno być możliwe sterowanie ogrzewaniem ze strony www oraz automatyczne zapalanie światła w~chwili zauważenia ruchu przez czujnik PIR. 
 
 
 
@@ -20,7 +20,7 @@ Aby zapobiec uzyskaniu dostępu do sterowania inteligentnym domem osobom niepowo
 	\item Estymata: szacowana czasochłonność: ,,M''.
 \end{itemize}
 
-\paragraph{Tytuł zadania.} Montaż czujnika światła i ruchu.
+\paragraph{Tytuł zadania.} Montaż czujnika światła i~ruchu.
 \begin{itemize}
 	\item Estymata: szacowana czasochłonność: ,,S''.
 \end{itemize}
@@ -30,7 +30,7 @@ Aby zapobiec uzyskaniu dostępu do sterowania inteligentnym domem osobom niepowo
 	\item Estymata: szacowana czasochłonność: ,,S''.
 \end{itemize}
 
-\paragraph{Tytuł zadania.} Czujnik temperatury i serwo mechanizm.
+\paragraph{Tytuł zadania.} Czujnik temperatury i~serwo mechanizm.
 \begin{itemize}
 	\item Estymata: szacowana czasochłonność: ,,S''.
 \end{itemize}
@@ -46,9 +46,9 @@ Aby zapobiec uzyskaniu dostępu do sterowania inteligentnym domem osobom niepowo
 
 \paragraph{Tytuł zadania.} Zabezpieczenie strony www.
 \subparagraph{Wykonawca.} Fornagiel Krzysztof.
-\subparagraph{Realizacja.} Do interfejsu WWW została dodana funkcjonalność logowania. Bez autoryzacji użytkownik nie ma możliwości sterowania ani sprawdzania stanu przekaźników. Zadanie wykonane zgodnie z założonym czasem.
+\subparagraph{Realizacja.} Do interfejsu WWW została dodana funkcjonalność logowania. Bez autoryzacji użytkownik nie ma możliwości sterowania ani sprawdzania stanu przekaźników. Zadanie wykonane zgodnie z~założonym czasem.
 
-\paragraph{Tytuł zadania.} Montaż czujnika światła i ruchu.
+\paragraph{Tytuł zadania.} Montaż czujnika światła i~ruchu.
 \subparagraph{Wykonawca.} Drozd Daniel.
 \subparagraph{Realizacja.} 	Połączenia PIR 
 
@@ -66,9 +66,9 @@ Połączenia fotorezystora :
 
 \paragraph{Tytuł zadania.} Sterowanie światłem zewnętrznym (napisanie programu).
 \subparagraph{Wykonawca.} Fornagiel Krzysztof, Homoncik Tomasz.
-\subparagraph{Realizacja.} Program sterujący oświetleniem zewnętrznym uruchomiony jest niezależnie od pozostałej części systemu. Światło w okół posesji zapalane jest, kiedy na zewnątrz jest ciemno (dane z czujnika światła) oraz czujnik ruchu wykryje ruch.
+\subparagraph{Realizacja.} Program sterujący oświetleniem zewnętrznym uruchomiony jest niezależnie od pozostałej części systemu. Światło w~okół posesji zapalane jest, kiedy na zewnątrz jest ciemno (dane z~czujnika światła) oraz czujnik ruchu wykryje ruch.
 
-\paragraph{Tytuł zadania.} Czujnik temperatury i serwo mechanizm (montaż).
+\paragraph{Tytuł zadania.} Czujnik temperatury i~serwo mechanizm (montaż).
 \subparagraph{Wykonawca.} Drozd Daniel.
 \subparagraph{Realizacja.} Połączenie serwomechanizmu oraz czujnika temperatury
 Serwomechanizm
@@ -88,15 +88,15 @@ Czujnik temperatury
 
 \paragraph{Tytuł zadania.} Program sterujący ogrzewaniem.
 \subparagraph{Wykonawca.} Drzyzga Sławomir, Fornagiel Krzysztof, Homoncik Tomasz.
-\subparagraph{Realizacja.} Skrypt odczytujący dane z czujnika temperatury. Jako argumenty przyjmuje numery pinów z podłączonymi czujnikami DHT11. Wartością zwracaną jest string z temperaturą pomieszczeń w stopniach Celsiusza z jednym miejscem po przecinku, oddzielone spacjami. 
+\subparagraph{Realizacja.} Skrypt odczytujący dane z~czujnika temperatury. Jako argumenty przyjmuje numery pinów z~podłączonymi czujnikami DHT11. Wartością zwracaną jest string z~temperaturą pomieszczeń w~stopniach Celsiusza z~jednym miejscem po przecinku, oddzielone spacjami. 
 \break
-Skrypt sterujący serwo mechanizmem. Pierwszym argumentem skryptu jest nr pinu, pod który podpięty jest serwo mechanizm. Drugim parametrem jest wartość procentowa od 0 do 100, oznaczająca stopień obrócenia osi mechanizmu. W ten sposób serwo jest podpięty pod zawór kaloryfera jest w stanie zmniejszać i zwiększać szybkość przepływu ciepłej wody.
+Skrypt sterujący serwo mechanizmem. Pierwszym argumentem skryptu jest nr pinu, pod który podpięty jest serwo mechanizm. Drugim parametrem jest wartość procentowa od 0 do 100, oznaczająca stopień obrócenia osi mechanizmu. W ten sposób serwo jest podpięty pod zawór kaloryfera jest w~stanie zmniejszać i~zwiększać szybkość przepływu ciepłej wody.
 \break
-Do sterowania systemem napisany został skrypt w PHP, uruchomiony niezależnie od serwera. Odczytuje on z pliku dane o liczbie pomieszczeń oraz numery pinów dla czujników temperatury i serwo mechanizmów.
+Do sterowania systemem napisany został skrypt w~PHP, uruchomiony niezależnie od serwera. Odczytuje on z~pliku dane o~liczbie pomieszczeń oraz numery pinów dla czujników temperatury i~serwo mechanizmów.
 Do strony trzeba było dodać formularz do wprowadzania temperatury dla każdego pomieszczenia.
 \subparagraph{}
 Skrypt odczytujący temperaturę - temp\_loop. \\
-Należy wpisać polecenie sudo ./temp\_loop \& w celu uruchomienia programu w tle
+Należy wpisać polecenie sudo ./temp\_loop \& w~celu uruchomienia programu w~tle
 \begin{verbatim}
 while [ true ]; do 
 	echo $(python temperature.py 4 4 4 4 4) > temperature.txt; 
@@ -108,4 +108,4 @@ done;
 % =============================================================		
 
 \subsection{Sprint Review/Demo}
-	Dwutygodniowy sprint zakończony powodzeniem. Klient zaakceptował wygląd projektu, można przejść do następnych sprintów. Wszystkie założenia zostały zrealizowane w terminie. W dniu prezentacji pojawiły się problemy z zakłóceniami serwomechanizmu, wyregulowano serwomechanizm i poprawiono skrypt.
+	Dwutygodniowy sprint zakończony powodzeniem. Klient zaakceptował wygląd projektu, można przejść do następnych sprintów. Wszystkie założenia zostały zrealizowane w~terminie. W dniu prezentacji pojawiły się problemy z~zakłóceniami serwomechanizmu, wyregulowano serwomechanizm i~poprawiono skrypt.
