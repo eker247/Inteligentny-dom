@@ -9,7 +9,7 @@
 \subsection{Cel} 
 
 	
-	W celu zrealizowania zadań z~historii 7 i~8 musimy wykonać szereg dodatkowych czynności. Aby było możliwe zdalne sterowanie przez stronę www należy skonfigurować router, podłączyć komputer, zainstalować serwer www, interpreter PHP, bazę danych, aplikację ddns, firewall, napisać pierwszą wersję strony internetowej z~możliwością sterowania światłem i~przekaźnikami. Dodatkowo należy wykonać połączenie 3 czujników (Pir, przekaźniki, fotorezystor) i~napisać odpowiednie skrypty.
+	W celu zrealizowania zadań z~historii 7. i~8. musimy wykonać szereg dodatkowych czynności. Aby było możliwe zdalne sterowanie przez stronę WWW należy skonfigurować router, podłączyć komputer, zainstalować serwer WWW, interpreter PHP, bazę danych, aplikację DDNS, firewall, napisać pierwszą wersję strony internetowej z~możliwością sterowania światłem i~przekaźnikami. Dodatkowo należy wykonać połączenie 3~czujników (PIR, przekaźniki, fotorezystor) i~napisać odpowiednie skrypty.
 	
 	
 	
@@ -20,7 +20,7 @@
 		\item Estymata: szacowana czasochłonność: ,,S''.
 	\end{itemize}
 	
-	\paragraph{Tytuł zadania.} Przygotowanie serwera www.
+	\paragraph{Tytuł zadania.} Przygotowanie serwera WWW.
 	\begin{itemize}
 		\item Estymata: szacowana czasochłonność: ,,S''.
 	\end{itemize}
@@ -51,25 +51,24 @@
 	
 	\paragraph{Tytuł zadania.} Konfiguracja infrastruktury sieciowej.
 	\subparagraph{Wykonawca.} Drozd Daniel.
-	\subparagraph{Realizacja.} Przygotowanie serwera - raspberry pi, instalacja systemu Debian w~wersji Raspbian. Przygotowanie serwera www, instalacja : Apache2 + PHP + MySQL + phpMyAdmin.
-  Stworzenie połączeń dla czujnika PIR, fotorezystora oraz przekaźnika. Stworzenie połączenia dynamicznego DNS, przekierowanie sieci na adres gerwant222.ddns.net
-  Przekierowanie odpowiednich portów routera do sieci zewnętrzej.
+	\subparagraph{Realizacja.} Przygotowanie serwera - raspberry pi, instalacja systemu Debian w~wersji Raspbian. Przygotowanie serwera WWW, instalacja : Apache2 + PHP + MySQL + phpMyAdmin.
+  Stworzenie połączeń dla czujnika PIR, fotorezystora oraz przekaźnika. Stworzenie połączenia dynamicznego DNS, przekierowanie sieci na adres gerwant222.ddns.net. Przekierowanie odpowiednich portów routera do sieci zewnętrzej.
  	   	   
-	\paragraph{Tytuł zadania.} Przygotowanie serwera www.
+\paragraph{Tytuł zadania.} Przygotowanie serwera WWW.
 \subparagraph{Wykonawca.} Drzyzga Sławomir.
 \subparagraph{Realizacja.} 
 Konfigurowanie plików systemowych na komputerze Raspberry. Zmiana uprawnień w~katalogu z~plikami PHP. Konfiguracja serwera ftp i~przeniesienie plików interfejsu WWW do wybranego katalogu. Wskazanie ruchu z~sieci na plik index w~katalogu (sites-enabled) ./html/web.
 \begin{verbatim}
 DocumentRoot /var/www/html/web
 DirectoryIndex /var/www/html/web/app.php
-\end{verbatim}.
+\end{verbatim}
 
 	
 	\paragraph{Tytuł zadania.} Zabezpieczenie przed niepożądanym ruchem z~sieci.
 	\subparagraph{Wykonawca.} Homoncik Tomasz.
-	\subparagraph{Realizacja.} Instalacja firewalla. Zatrzymanie pracy uruchomionej zapory. Dodanie odpowiedznich reguł uniemożliwiających niepożądany dostęp z~zewnątrz. Ponowne uruchomienie.
+	\subparagraph{Realizacja.} Instalacja firewalla. Zatrzymanie pracy uruchomionej zapory. Dodanie odpowiednich reguł uniemożliwiających niepożądany dostęp z~zewnątrz. Ponowne uruchomienie i~sprawdzenie konfiguracji.
 	
-	\paragraph{Tytuł zadania.} Stworzenie interfejsu www.
+	\paragraph{Tytuł zadania.} Stworzenie interfejsu WWW.
 	\subparagraph{Wykonawca.} Fornagiel Krzysztof.
 	\subparagraph{Realizacja.} 
 	Strona internetowa została stworzona w~Symfony 3 - obecnie drugim najpopularniejszym frameworku MVC języka PHP. Technologia ta została wybrana ze względu na łatwość wdrożenia i~niezawodność. Do generowania stron HTML używany jest system szablonów Twig. Użyty we frameworku wzorzec MVC ułatwia czytelność kodu oraz jego przenośność do innego systemu. Wbudowane komponenty pozwalają generować adresy URL zgodnie z~naszymi preferencjami. Implementacja odbyła się zgodnie z~planowanym czasem. 
